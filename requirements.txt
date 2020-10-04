@@ -2,7 +2,6 @@ Flask==1.1.2
 pandas==1.0.5
 joblib==0.16.0
 xgboost==1.2.0
-dryscrape==1.0
 requests==2.24.0
 numpy==1.18.5
 beautifulsoup4==4.9.3
