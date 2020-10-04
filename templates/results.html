@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <title>IPL Prediction</title>
+    </head>
+    <body>
+        <div class="content">
+            <h1>IPL Predictions</h1>
+            <table>
+                <tr>
+                <td><h3> {{responses['team1'][0]}}</h3>
+                    <h4>  {{responses['team1'][2]}}  {{responses['team1'][1]}}</h4> </td>
+            <td><h3> {{responses['team2'][0]}}</h3>
+                <h4> {{responses['team2'][2]}} {{responses['team2'][1]}}</h4></td> </tr>
+            </table>
+            <h2>{{responses['pred']}}</h2>
+        </div>
+    </body>
+</html>
